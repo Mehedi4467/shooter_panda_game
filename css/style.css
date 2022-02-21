@@ -58,4 +58,13 @@
     top: 16px;
     right: 0;
 }
+/* circel control section css  */
+.circel-control{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    cursor: pointer;
+    padding: 10px;
+    background-color: blueviolet;
+}
 
