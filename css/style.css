@@ -1,0 +1,61 @@
+/* canvas box style  */
+.canvesBox{
+    border:1px solid #5b48c7;
+    height: 350px;
+    padding: 20px;
+}
+
+/* shooter man css */
+.shooter-man{
+    transform: rotate(20deg);
+}
+
+/* panda animation css */
+.pandaImage {
+   
+    position: relative;
+    animation-name: panda;
+    animation-duration: 4s;  
+    animation-iteration-count: infinite;
+  }
+
+
+@keyframes panda {
+  0%   {top:0px;}
+  25%  {top:0px;}
+  50%  {top:200px;}
+  75%  {top:200px;}
+  100% {top:0px;}
+  }
+
+
+  /* score board css  */
+
+  .score-board{
+      position: absolute;
+      right: 0;
+      top: 0;
+  }
+
+/* count time css */
+.timeDiv{
+    height: 100px;
+    width: 100px;
+}
+
+.time-area{
+    border: 2px solid red;
+    padding: 30px;
+}
+
+/* gun and bullet css */
+.gun{
+    position: relative;
+
+}
+.bullet{
+    position: absolute;
+    top: 16px;
+    right: 0;
+}
+
